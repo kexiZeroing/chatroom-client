@@ -20,8 +20,8 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
 
-  // the server address
-  const ENDPOINT = 'localhost:5000';
+  // the server address (depoly on heroku)
+  const ENDPOINT = 'https://chatroom-react-socketio.herokuapp.com/';
 
   // only run when ENDPOINT or search params change
   useEffect(() => {
