@@ -5,3 +5,10 @@
 
 ### server repo:
 https://github.com/kexiZeroing/chatroom-server
+
+### deploy on netlify:
+- `npm install netlify-cli -g`
+- `netlify deploy`, choose to create & configure a new site, may give a site name and choose publish directory as `./build`
+- `netlify deploy --prod`
+- visit https://chatroom-kexi.netlify.com
+ 
